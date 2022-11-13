@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor:pointer;
+}
+.nav-list{
+    display:flex;
+    /* background-color: black; */
+    /* color: black; */
+    width: 70%;
+    align-items: center;
+}
+.nav-list li{
+    margin: 20px;
+    
+    list-style-type: none;
+}
+.nav-list li :hover{
+    color: red;
+}
+.nav-list li a{
+    text-decoration: none;
+    padding :10px;
+
+    color: black;
+
+}
+.right-nav{
+    /* float: right; */
+    /* background-color: blue; */
+    width: 30%;
+    /* text-align: right;
+    margin-top: 20px;
+    padding: 0 29px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 20px; */
+}
+/* .right-nav div{
+    margin-top: 20px;
+
+} */
+
+#search{
+    padding: 5px;
+    border-radius: 10px;
+}
+.logo{
+    width: 20%;
+}
+.logo img{
+  width: 30%;
+  border: 2px solid white;
+  border-radius: 100px;
+  margin-top: 4px;
+}
+
+
+.btn {
+    padding: 5px;
+    border-radius: 12px;
+    background: none;
+    cursor: pointer;
+    margin: 0 3px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0)url(../images/img4.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+.firstHalf{
+display: flex;
+justify-content: center;
+width: 80%;
+flex-direction: column;
+}
+.secondHalf{
+width: 30%;
+}
+.secondHalf img{
+    height: 150px;
+    width: 160px;
+    border-radius: 101px;
+    padding: 2px;
+    border: 2px solid black;
+    margin: 15px;
+    }
+    .text-big{
+        font-size: 40px;
+        padding: 10px;
+    }
+    .text-small{
+    font-size: 18px;
+    padding: 10px;
+    }
+  .btn-sm{
+    padding: 3px 10px;
+    vertical-align: middle;
+  }
+  .section{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1133px;
+    margin: auto;
+  }
+  .section-left{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1133px;
+    margin: auto;
+    flex-direction: row-reverse;
+  }
+  .sectionTag{
+    padding: 16px 0;
+  }
+  .paras{
+    padding: 0 65px;
+  }
+  section img{
+    border-radius: 10px;
+  }
+  footer{
+   display:flex;
+   justify-content: center;
+  }
+  .contact-us input{
+    margin: 10px 300px;
+    width: 60%;
+  }
+  .contact-us button{
+    margin: 20px 634px;
+  }
+ 
